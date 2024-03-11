@@ -12,4 +12,11 @@ composer install
 cp .env.example .env
 php artisan key:generate
 
-# Configurar la base de datos y otros ajustes en el archivo .env
+# Crear la base de datos
+CREATE DATABASE dbtask
+agregar el nombre de la base de datos creada (dbtask) en el archivo .env
+
+#Ejecutar la aplicación 
+php artisan serve
+
+Ahora si puede ejecutar la aplicación frontend para utilizar esta API 
