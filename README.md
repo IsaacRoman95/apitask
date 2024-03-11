@@ -16,7 +16,7 @@ php artisan key:generate
 CREATE DATABASE dbtask
 agregar el nombre de la base de datos creada (dbtask) en el archivo .env
 
-#Ejecutar la aplicación 
+# Ejecutar la aplicación 
 php artisan serve
 
 Ahora si puede ejecutar la aplicación frontend para utilizar esta API 
